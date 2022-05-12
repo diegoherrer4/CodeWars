@@ -2,8 +2,6 @@
 
 ![CodeWars pfp](codewarspfp.PNG)
 
-
-How it's Made:
 Tech used: JavaScript.
 
 
