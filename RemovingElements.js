@@ -6,7 +6,7 @@
 
 // None of the arrays will be empty, so you don't have to worry about that!
 
-//Answer:
+//15 //Answer:
 
 function removeEveryOther(arr){
     var newArr=[];
