@@ -2,7 +2,7 @@
 
 // Example
 // ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
-
+//17
 //Answer:
 
 
