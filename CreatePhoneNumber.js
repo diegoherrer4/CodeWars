@@ -16,3 +16,16 @@ function createPhoneNumber(numbers){
   
     return `(${digit1}${digit2}${digit3}) ${digit4}${digit5}${digit6}-${digit7}${digit8}${digit9}${digit10}`
   }
+
+  //Other way to do it:
+
+  function createPhoneNumber(numbers){
+    var format = "(xxx) xxx-xxxx";
+    
+    for(var i = 0; i < numbers.length; i++)
+    {
+      format = format.replace('x', numbers[i]);
+    }
+    
+    return format;
+  }
