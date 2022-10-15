@@ -10,7 +10,7 @@
 //url trad no funny biz
 //str
 
-function parseDomainName(url){
+const parseDomainName = (url) => {
 
 //replace the stuff upfront
 return url.replace('https://','').replace('http://','').replace('www','').split('.')[0]
