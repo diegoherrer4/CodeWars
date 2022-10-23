@@ -5,7 +5,7 @@
 //String
 const reversedString = (str) => {
     //str to array using split -> reverse array -> join array
-   return str.split('').reverse().join('')
+   return str.split('').reverse().join('');
 }
 
 
