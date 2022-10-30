@@ -16,7 +16,7 @@ const duplicateEncode = (word) => {
     let newWord = word.toLowerCase()
     let result = ""
     for(i of newWord){
-      if(newWord.indexOf(i)===newWord.lastIndexOf(i)){
+      if(newWord.indexOf(i) === newWord.lastIndexOf(i)){
         result += "("
       } else {
         result += ")"
