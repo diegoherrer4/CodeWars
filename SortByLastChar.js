@@ -8,7 +8,7 @@
 
 
 
-function last(arr){
+const last=(arr)=> {
     return arr.split(' ').sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1))
       
     }
