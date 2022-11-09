@@ -13,7 +13,7 @@
 
 function findDeletedNumber(arr, mixArr) {
     //sort mixArr -> for loop -> if mixArr[i] !== mixArr[i - 1]
-    let sorted = mixArr.sort((a, b) => a - b);
+    let sorted = mixArr.sort((a, b) => a - b)
      
     if(arr.every((val, index) => val === sorted[index])){
       return 0
