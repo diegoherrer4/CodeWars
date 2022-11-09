@@ -11,7 +11,7 @@
 
 // Note: N may be 1 or less (in the latter case, the first array will be []).
 
-function findDeletedNumber(arr, mixArr) {
+function findDeletedNumber(arr, mixArr){
     //sort mixArr -> for loop -> if mixArr[i] !== mixArr[i - 1]
     let sorted = mixArr.sort((a, b) => a - b);
      
