@@ -4,7 +4,7 @@
 
 // P.S. Each array includes only integer numbers. Output is a number too.
 
-function arrayPlusArray(arr1, arr2) {
+const arrayPlusArray = (arr1, arr2) => {
     let newArr = [...arr1, ...arr2]
     const sum = newArr.reduce((accumulator, element) => {
      return accumulator + element;
