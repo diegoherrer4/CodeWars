@@ -12,7 +12,7 @@
 // 0.400000
 // 0.200000
 
-function plusMinus(arr) {
+function plusMinus(arr){
     let negative = arr.filter(e => e < 0).length / arr.length
     let positive = arr.filter(e => e > 0).length / arr.length
     let zero = arr.filter(e => e === 0).length / arr.length
