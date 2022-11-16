@@ -14,7 +14,7 @@
 // gimme([5, 10, 14]) => 1
 // 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
-function gimme (triplet) {
+function gimme (triplet){
     let sortedArr = [...triplet].sort((a, b) =>  a - b)
      let middleValue = sortedArr[1]
      return triplet.indexOf(middleValue)
